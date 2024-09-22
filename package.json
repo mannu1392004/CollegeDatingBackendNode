@@ -1,7 +1,7 @@
 {
   "name": "collegedating",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.0",
-    "mongoose": "^8.6.3"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.3",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
   }
 }
